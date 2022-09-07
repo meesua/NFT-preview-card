@@ -1,0 +1,171 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+:root{
+    --Main-BG: hsl(217, 54%, 11%);
+    --Card-BG: hsl(216, 50%, 16%);
+    --Line: hsl(215, 32%, 27%);
+    --White:hsl(0, 0%, 100%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color:var(--Main-BG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: var(--Card-BG);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 18px;
+    max-width: 300px;
+}
+.nft-Img img{
+    position: relative;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.B-Text{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    color: var(--White);
+    font-weight: 600;
+}
+.S-Text{
+    margin-top: 10px;
+    font-size:15px;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+}
+.bal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.eth{
+display: flex;
+align-items: center;
+}
+.eth span{
+    color: aqua;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.time span{
+    padding-left: 5px;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.line{
+    border: 1px solid var(--Line);
+    margin: 20px 0 10px 0;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    width: 25px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+.avatar p{
+    padding-left: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+.avatar p span{
+    color: var(--White);
+}
+@media only screen and (max-width: 375px){
+    body{
+        background-color:var(--Main-BG);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .container{
+        background-color: var(--Card-BG);
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 18px;
+        max-width: 300px;
+    }
+    .nft-Img img{
+        position: relative;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .B-Text{
+        margin-top: 10px;
+        text-align: left;
+        font-size: 20px;
+        color: var(--White);
+        font-weight: 600;
+    }
+    .S-Text{
+        margin-top: 10px;
+        font-size:15px;
+        text-align: left;
+        color: hsl(215, 51%, 70%);
+        font-weight: 200;
+    }
+    .bal{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .eth{
+    display: flex;
+    align-items: center;
+    }
+    .eth span{
+        color: aqua;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .time{
+        display: flex;
+        align-items: center;
+    }
+    .time span{
+        padding-left: 5px;
+        font-size: 14px;
+        color: hsl(215, 51%, 70%);
+    }
+    .line{
+        border: 1px solid var(--Line);
+        margin: 20px 0 10px 0;
+    }
+    .avatar{
+        display: flex;
+        align-items: center;
+    }
+    .avatar img{
+        width: 25px;
+        border: 1px solid var(--White);
+        border-radius: 50%;
+    }
+    .avatar p{
+        padding-left: 15px;
+        color: hsl(215, 51%, 70%);
+        font-size: 14px;
+    }
+    .avatar p span{
+        color: var(--White);
+    }
+}
+
